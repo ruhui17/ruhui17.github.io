@@ -24,7 +24,7 @@ body {
 }
 
 header {
-  background-color: #c89c6c;
+  background-color: #D6CCC2;
 }
 
 header > .container > h1 {
@@ -32,7 +32,7 @@ header > .container > h1 {
 }
 
 header > .container > h1 > a {
-  color: #F5EBE0;
+  color: #Fff;
 }
 
 header > .container > nav > ul {
@@ -46,13 +46,13 @@ header > .container > nav > ul > li {
 
 header > .container > nav > ul > li > a {
   line-height: 60px;
-  color: #F5EBE0;
+  color: #Fff;
   font-size: 1.2em;
   letter-spacing: 2px;
 }
 
 h1 {
-  color: #c89c6c;
+  color: #D6CCC2;
 }
 
 .img-fluid {
