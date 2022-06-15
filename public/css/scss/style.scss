@@ -1,4 +1,4 @@
-$primary-color:#Fff;
+$primary-color:#F4F3EE;
 
 *{
     margin: 0;
@@ -22,7 +22,7 @@ body{
 }
 
 header{
-    background-color: #D6CCC2;
+    background-color: #8A817C;
 }
 header>.container>h1{
     padding-top: 20px;
@@ -49,19 +49,49 @@ header>.container>nav>ul>li>a{
 //====================================
 //內容區塊
 //====================================
-h1{
-    color: #D6CCC2;
+h2{
+    color: #8A817C;
 }
 .img-fluid{
     width: 100%;
+}
+.img-rounded{
+border-radius: 8px;
+}
+.img-circle{
+    border-radius: 100%;
 }
 .row{
     display:flex;
     flex-wrap:wrap; /*換行*/
 }
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-justify{
+    text-align: justify;
+}
+//三欄式
 .col-4{
     width: calc(100% / 3 - 30px);
     margin: 0px 15px 40px 15px;
     /*上右下左*/
-
+}
+//四欄式
+.col-3{
+    width: calc(100% / 4 - 30px);
+    margin: 0px 15px 40px 15px;
+    /*上右下左*/
+}
+//兩欄式
+.col-6{
+    width: calc(100% / 2 - 30px);
+    margin: 0px 15px 40px 15px;
+    /*上右下左*/
 }
