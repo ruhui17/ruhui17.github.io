@@ -49,6 +49,9 @@ header>.container>nav>ul>li>a{
 //====================================
 //內容區塊
 //====================================
+h1{
+    color: #c89c6c;
+}
 .img-fluid{
     width: 100%;
 }
@@ -57,5 +60,8 @@ header>.container>nav>ul>li>a{
     flex-wrap:wrap; /*換行*/
 }
 .col-4{
-    width: 33.33333%;
+    width: calc(100% / 3 - 30px);
+    margin: 0px 15px 40px 15px;
+    /*上右下左*/
+
 }

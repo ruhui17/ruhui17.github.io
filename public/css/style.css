@@ -51,6 +51,10 @@ header > .container > nav > ul > li > a {
   letter-spacing: 2px;
 }
 
+h1 {
+  color: #c89c6c;
+}
+
 .img-fluid {
   width: 100%;
 }
@@ -62,5 +66,7 @@ header > .container > nav > ul > li > a {
 }
 
 .col-4 {
-  width: 33.33333%;
+  width: calc(100% / 3 - 30px);
+  margin: 0px 15px 40px 15px;
+  /*上右下左*/
 }
