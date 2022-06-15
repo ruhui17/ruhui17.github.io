@@ -15,23 +15,23 @@ body {
   margin: 0;
 }
 
-header {
-  /*background-color: #F5EBE0;*/
-}
-
-header > .container > h1 {
-  padding-top: 30px;
-}
-
-header > .container > h1 > a {
-  color: #F5EBE0;
-}
-
 .container {
   margin: auto;
   width: 90%;
   max-width: 1140px;
-  background-color: #D6CCC2;
+  /*background-color: #D6CCC2;*/
+}
+
+header {
+  background-color: #F5EBE0;
+}
+
+header > .container > h1 {
+  padding-top: 20px;
+}
+
+header > .container > h1 > a {
+  color: #F5EBE0;
 }
 
 header > .container > nav > ul {
