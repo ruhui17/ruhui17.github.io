@@ -132,10 +132,12 @@ border-radius: 8px;
     /*上右下左*/
 }
 
-.tittle a{
-    color:#8A817C
-    
-}
+.title a {
+    color: black;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  
 .date{
     color:$primary-color
 }
