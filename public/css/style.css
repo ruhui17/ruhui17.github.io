@@ -88,40 +88,6 @@ h2 {
   color: #8A817C;
 }
 
-.img-fluid {
-  width: 100%;
-}
-
-.img-rounded {
-  border-radius: 8px;
-}
-
-.img-circle {
-  border-radius: 100%;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  /*換行*/
-}
-
 .col-3 {
   width: calc(100% / 4 - 30px);
   margin: 0px 15px 40px 15px;
@@ -136,6 +102,24 @@ h2 {
 
 .col-6 {
   width: calc(100% / 2 - 30px);
+  margin: 0px 15px 40px 15px;
+  /*上右下左*/
+}
+
+.col-8 {
+  width: calc(100% / 1.5 - 30px);
+  margin: 0px 15px 40px 15px;
+  /*上右下左*/
+}
+
+.col-9 {
+  width: calc(100% / 1.3333 - 30px);
+  margin: 0px 15px 40px 15px;
+  /*上右下左*/
+}
+
+.col-12 {
+  width: calc(100% / 1 - 30px);
   margin: 0px 15px 40px 15px;
   /*上右下左*/
 }
@@ -161,6 +145,11 @@ footer {
 }
 
 dt {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+dd {
   margin-bottom: 4px;
 }
 
@@ -168,20 +157,36 @@ dd > a {
   color: #F4F3EE;
 }
 
-.pdc {
-  color: #e46622;
-}
-
-.pdc2 {
-  color: #ad6b47;
-}
-
 .breadcrumb {
   display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .breadcrumb a {
+  color: #493a33;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.btn-primary {
+  background-color: #F4F3EE;
+  padding: 15px;
+  color: #493a33;
+  display: block;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #F4F3EE;
   color: #493a33;
 }
