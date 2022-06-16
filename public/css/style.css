@@ -175,3 +175,13 @@ dd > a {
 .pdc2 {
   color: #ad6b47;
 }
+
+.breadcrub {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.breadcrub a {
+  color: #493a33;
+}
