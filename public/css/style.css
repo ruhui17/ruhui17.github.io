@@ -10,6 +10,7 @@ ul, ol {
 
 a {
   text-decoration: none;
+  text-align: center;
 }
 
 body {
@@ -189,4 +190,39 @@ dd > a {
 .btn-primary {
   background-color: #F4F3EE;
   color: #493a33;
+}
+
+.text-primary {
+  color: #493a33;
+}
+
+.img-wrap {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.img-overlay {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.img-wrap img {
+  vertical-align: top;
+  transition: all 0.5s;
+}
+
+.img-wrap img:hover {
+  transform: scale(1.5);
+}
+
+.icon-new {
+  position: absolute;
+  width: 50px;
+  line-height: 50px;
+  color: #F4F3EE;
+  border-radius: 100%;
+  background-color: #528b50;
+  left: -25px;
+  top: -25px;
 }
