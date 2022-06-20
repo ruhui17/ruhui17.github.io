@@ -1,0 +1,123 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title 平面設計作品
+    link(rel='stylesheet' href='public/css/style.css')
+  body
+    // header>.container>h1>{ruhui's portfolio}+nav>ul>li*4>a[href="#"]{文字}
+    header
+      .container
+        h1
+          a(href='index.html') ruhui's portfolio
+        nav
+          ul
+            li
+              a(href='#') 關於我
+            li
+              a(href='#') 平面作品
+            li
+              a(href='#') 網頁設計
+            li
+              a(href='#') 聯絡我
+    // haeder end
+    // content start
+    .container
+      .row
+        ul.breadcrumb
+          li
+            a(href='index.html') 首頁 
+            
+          li 平面作品
+        aside.col-3
+          // ul>li*4>a.btn-primary{分類$$}
+          ul
+            li
+              a.btn-primary(href='') 全部
+            li
+              a.btn-primary(href='') 品牌設計
+            li
+              a.btn-primary(href='') 包裝設計
+            li
+              a.btn-primary(href='') 插畫設計
+        main.col-9
+          .row
+            // work start
+            .col-4.text-center
+              a.img-wrap(href='＃')
+                .img-overlay
+                  img.img-fluid.img-rounded(src='images/want1.png' alt='')
+                span.icon-new NEW
+              a.text-primary(href='#') 作品標題1
+            // work end
+            // work start
+            .col-4.text-center
+              a.img-wrap(href='＃')
+                .img-overlay
+                  img.img-fluid.img-rounded(src='images/want1.png' alt='')
+                span.icon-new NEW
+              a.text-primary(href='#') 作品標題1
+            // work end
+            // work start
+            .col-4.text-center
+              a.img-wrap(href='＃')
+                .img-overlay
+                  img.img-fluid.img-rounded(src='images/want1.png' alt='')
+              a.text-primary(href='#') 作品標題1
+            // work end
+            // work start
+            .col-4.text-center
+              a.img-wrap(href='＃')
+                .img-overlay
+                  img.img-fluid.img-rounded(src='images/want1.png' alt='')
+              a.text-primary(href='#') 作品標題1
+            // work end
+            // content end
+            // footer>.container>.row>dl.col-3*5>dt{標題$$}+dd*4>a{項目$$}^^p.copyright.text-center{copyright}
+            div
+              footer
+                .container
+                  .row
+                    dl.col-3
+                      dt 標題01
+                      dd
+                        a(href='#') 項目01
+                      dd
+                        a(href='#') 項目02
+                      dd
+                        a(href='#') 項目03
+                      dd
+                        a(href='#') 項目04
+                    dl.col-3
+                      dt 標題02
+                      dd
+                        a(href='#') 項目01
+                      dd
+                        a(href='#') 項目02
+                      dd
+                        a(href='#') 項目03
+                      dd
+                        a(href='#') 項目04
+                    dl.col-3
+                      dt 標題03
+                      dd
+                        a(href='#') 項目01
+                      dd
+                        a(href='#') 項目02
+                      dd
+                        a(href='#') 項目03
+                      dd
+                        a(href='#') 項目04
+                    dl.col-3
+                      dt 標題04
+                      dd
+                        a(href='#') 項目01
+                      dd
+                        a(href='#') 項目02
+                      dd
+                        a(href='#') 項目03
+                      dd
+                        a(href='#') 項目04
+                  p.text-center 本站僅供學習使用，不用於商業用途

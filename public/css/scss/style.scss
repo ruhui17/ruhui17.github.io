@@ -221,3 +221,49 @@ dd>a{
     left: -25px;
     top: -25px;
 }
+
+
+//小於767px以下執行 start
+@media (max-width:767px){
+    h1{
+        //width:85%
+        //background-color: rgb(159, 155, 140);
+        float:left;
+    } //icon-menu
+
+    .icon-menu{
+        float: right;
+        width: 15%;
+        display: block;
+        background-color: rgb(54, 53, 53);
+        color: #fff;
+        line-height: 60px;
+        text-align: center;
+    
+    }
+    header>.container>nav{
+        width: 100%;
+        float: left;
+    }
+    header>.container>nav>ul{
+        display: block;
+    }
+    header>.container>nav>ul>li{
+        text-align: center;
+        width: 100%;
+    
+    }
+    .overflow-hidden{
+        overflow: hidden
+    }
+
+}
+
+//超過768以上執行 start
+@media (min-width:768px){
+   
+    .icon-menu{
+        display:none;
+    }
+} 
+//min-width 768 end

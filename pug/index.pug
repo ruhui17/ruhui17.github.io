@@ -10,6 +10,7 @@ html(lang='en')
     // header>.container>h1>{ruhui's portfolio}+nav>ul>li*4>a[href="#"]{文字}
     header
       .container
+        a.icon-menu(href="#") menu 
         h1
           a(href='index.html') ruhui's portfolio
         nav
@@ -23,12 +24,12 @@ html(lang='en')
             li
               a(href='#') 聯絡我
     // haeder end
-    img.img-fluid(src='images/images1.jpg' alt='' width='1920' height='480')
+    // img src="images/images1.jpg" class="img-fluid" alt="" width="1920" height="480"
     // content start
     // .container>h1{最新作品一覽}＋.row>.col-4*6>img.img-fluid+p.tittle>a[href="#"]{標題$}^+p.date
     // .container>h1{最新作品一覽}+.row>.col-4*6>img.img-fluid+p.title>a[href="#"]{標題$}^p.date{內容}
     .container
-      h2.(class='.text-center') 最新作品一覽
+      h2 (class='.text-center') 最新作品一覽
       .row
         // .col-4*7>a>img[src="images/images2.jpg" class="img-fluid img-rounded"]^p.title.text-center>a{作品標題$}^p.date.text-center{2022-6-15}
         .col-4
