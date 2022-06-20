@@ -245,6 +245,11 @@ dd > a {
   header > .container > nav {
     width: 100%;
     float: left;
+    display: none;
+  }
+
+  header > .container > nav.active {
+    display: block;
   }
 
   header > .container > nav > ul {
