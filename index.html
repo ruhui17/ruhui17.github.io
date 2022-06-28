@@ -1,94 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruhui's Portfolio</title>
-    <link rel="stylesheet" href="public/css/style.css">
-  </head>
-  <body>
-    <!-- header>.container>h1>{ruhui's portfolio}+nav>ul>li*4>a[href="#"]{文字}-->
-    <header>
-      <div class="container"><a class="icon-menu" href="#">menu </a>
-        <h1><a href="index.html">ruhui's portfolio</a></h1>
-        <nav>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruhui's Portfolio</title>
+  <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+  <!-- header>.container>h1>{ruhui's portfolio}+nav>ul>li*4>a[href="#"]{文字}-->
+  <header>
+    <div class="container">
+      <div class="row flex-space-between">
+        <h1><a href="index.html">Ruhui's Portfolio</a></h1><a class="icon-menu" id="btn-nav-toggle" href="#">menu</a>
+        <!-- 20220627 追加#btn-nav-toggle--> <!-- 20220627 追加#primary-navigation-->
+        <nav id="primary-navigation">
           <ul>
-            <li><a href="#">關於我</a></li>
-            <li><a href="design-list.html">平面作品</a></li>
-            <li><a href="#">網頁設計</a></li>
+            <li><a href="aboutus.html">關於我</a></li>
+            <li><a href="#">設計作品</a>
+              <ul class="submenu"> 
+                <li> <a href="design-list.html">品牌設計 </a></li>
+                <li> <a href="design-list.html">包裝設計 </a></li>
+              </ul>
+            </li>
+            <li><a href="#">網頁作品</a>
+              <ul class="submenu"> 
+                <li> <a href="webdesign.html">品牌設計 </a></li>
+                <li> <a href="webdesign.html">包裝設計 </a></li>
+              </ul>
+            </li>
             <li><a href="#">聯絡我</a></li>
+            <!-- haeder end-->
           </ul>
         </nav>
       </div>
-    </header>
-    <!-- haeder end-->
-    <!-- img src="images/images1.jpg" class="img-fluid" alt="" width="1920" height="480"-->
-    <!-- content start-->
-    <!-- .container>h1{最新作品一覽}＋.row>.col-md-4*6>img.img-fluid+p.tittle>a[href="#"]{標題$}^+p.date-->
-    <!-- .container>h1{最新作品一覽}+.row>.col-md-4*6>img.img-fluid+p.title>a[href="#"]{標題$}^p.date{內容}-->
-    <div class="container">
-      <h2>(class='.text-center') 最新作品一覽</h2>
-      <div class="row">
-        <!-- .col-md-4*7>a>img[src="images/images2.jpg" class="img-fluid img-rounded"]^p.title.text-center>a{作品標題$}^p.date.text-center{2022-6-15}-->
-        <div class="col-6 col-md-4 col-lg-3"><a href="#"><img class="img-fluid img-rounded" src="images/images2.jpg" alt=""></a>
-          <p class="title text-center"><a href="#">作品標題1</a></p>
-          <p class="date text-center">2022-6-15</p>
-        </div>
-        <div class="col-6 col-md-4 col-lg-3"><a href="#"><img class="img-fluid img-rounded" src="images/images2.jpg" alt=""></a>
-          <p class="title text-center"><a href="#">作品標題2</a></p>
-          <p class="date text-center">2022-6-15</p>
-        </div>
-        <div class="col-6 col-md-4 col-lg-3"><a href="#"><img class="img-fluid img-rounded" src="images/images2.jpg" alt=""></a>
-          <p class="title text-center"><a href="#">作品標題3</a></p>
-          <p class="date text-center">2022-6-15</p>
-        </div>
-        <div class="col-6 col-md-4 col-lg-3"><a href="#"><img class="img-fluid img-rounded" src="images/images2.jpg" alt=""></a>
-          <p class="title text-center"><a href="#">作品標題4</a></p>
-          <p class="date text-center">2022-6-15</p>
-        </div>
-        <div class="col-6 col-md-4 col-lg-3"><a href="#"><img class="img-fluid img-rounded" src="images/images2.jpg" alt=""></a>
-          <p class="title text-center"><a href="#">作品標題5</a></p>
-          <p class="date text-center">2022-6-15</p>
-        </div>
+    </div>
+  </header>
+  <!-- haeder end-->
+  <img class="img-fluid" src="images/images1.jpg" alt="" width="1920px" height="480px">
+  <!-- content start-->
+  <!-- .container>h1{最新作品一覽}＋.row>.col-md-4*6>img.img-fluid+p.tittle>a[href="#"]{標題$}^+p.date-->
+  <!-- .container>h1{最新作品一覽}+.row>.col-md-4*6>img.img-fluid+p.title>a[href="#"]{標題$}^p.date{內容}-->
+  <div class="container">
+    <h2 class="fz-3 text-center">精選作品</h2>
+    <div class="row">
+      <div class="col-6 col-md-4 col-lg-3"><a href="#"><img class="img-fluid img-rounded" src="https://loremflickr.com/300/200"></a>
+        <p class="title text-center"><a href="#">標題1</a></p>
+        <p class="date text-center">20220615</p>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3"><a href="#"><img class="img-fluid img-rounded" src="https://loremflickr.com/300/200" alt=""></a>
+        <p class="title text-center"><a href="#">標題2</a></p>
+        <p class="date text-center">20220615</p>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3"><a href="#"><img class="img-fluid img-rounded" src="https://loremflickr.com/300/200" alt=""></a>
+        <p class="title text-center"><a href="#">標題3</a></p>
+        <p class="date text-center">20220615</p>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3"><a href="#"><img class="img-fluid img-rounded" src="https://loremflickr.com/300/200" alt=""></a>
+        <p class="title text-center"><a href="#">標題4</a></p>
+        <p class="date text-center">20220615</p>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3"><a href="#"><img class="img-fluid img-rounded" src="https://loremflickr.com/300/200" alt=""></a>
+        <p class="title text-center"><a href="#">標題5</a></p>
+        <p class="date text-center">20220615</p>
+      </div>
+      <div class="col-6 col-md-4 col-lg-3"><a href="#"><img class="img-fluid img-rounded" src="https://loremflickr.com/300/200" alt=""></a>
+        <p class="title text-center"><a href="#">標題6</a></p>
+        <p class="date text-center">20220615</p>
       </div>
     </div>
     <!-- content end-->
-    <!-- footer>.container>.row>dl.col-md-3*5>dt{標題$$}+dd*4>a{項目$$}^^p.copyright.text-center{copyright}-->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <dl class="col-md-3">
-            <dt>標題01</dt>
-            <dd><a href="#">項目01</a></dd>
-            <dd><a href="#">項目02</a></dd>
-            <dd><a href="#">項目03</a></dd>
-            <dd><a href="#">項目04</a></dd>
-          </dl>
-          <dl class="col-md-3">
-            <dt>標題02</dt>
-            <dd><a href="#">項目01</a></dd>
-            <dd><a href="#">項目02</a></dd>
-            <dd><a href="#">項目03</a></dd>
-            <dd><a href="#">項目04</a></dd>
-          </dl>
-          <dl class="col-md-3">
-            <dt>標題03</dt>
-            <dd><a href="#">項目01</a></dd>
-            <dd><a href="#">項目02</a></dd>
-            <dd><a href="#">項目03</a></dd>
-            <dd><a href="#">項目04</a></dd>
-          </dl>
-          <dl class="col-md-3">
-            <dt>標題04</dt>
-            <dd><a href="#">項目01</a></dd>
-            <dd><a href="#">項目02</a></dd>
-            <dd><a href="#">項目03</a></dd>
-            <dd><a href="#">項目04</a></dd>
-          </dl>
-        </div>
-        <p class="text-center">本站僅供學習使用，不用於商業用途</p>
+  </div>
+  <!-- footer>.container>.row>dl.col-md-3*5>dt{標題$$}+dd*4>a{項目$$}^^p.copyright.text-center{copyright}-->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <dl class="col-12 col-md-4 text-center">
+          <dt>title01</dt>
+          <dd><a href="#">項目01</a></dd>
+          <dd><a href="#">項目02</a></dd>
+          <dd><a href="#">項目03</a></dd>
+          <dd><a href="#">項目04</a></dd>
+        </dl>
+        <dl class="col-12 col-md-4 text-center">
+          <dt>title02</dt>
+          <dd><a href="#">項目01</a></dd>
+          <dd><a href="#">項目02</a></dd>
+          <dd><a href="#">項目03</a></dd>
+          <dd><a href="#">項目04</a></dd>
+        </dl>
+        <dl class="col-12 col-md-4 text-center">
+          <dt>title03</dt>
+          <dd><a href="#">項目01</a></dd>
+          <dd><a href="#">項目02</a></dd>
+          <dd><a href="#">項目03</a></dd>
+          <dd><a href="#">項目04</a></dd>
+        </dl>
       </div>
-    </footer>
-  </body>
-</html>
+      <p class="text-center">copyright@職訓課程使用，不做任何商業用途</p>
+    </div>
+  </footer>
+  <!-- 20220627 追加掛載外部腳本檔  -->
+  <script src="public/js/script.js"> </script>
+</body>
+
