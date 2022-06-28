@@ -1,81 +1,81 @@
 doctype html
-html(lang='en')
-  head
-    meta(charset='UTF-8')
-    meta(http-equiv='X-UA-Compatible' content='IE=edge')
-    meta(name='viewport' content='width=device-width, initial-scale=1.0')
-    title Ruhui's Portfolio
-    link(rel='stylesheet' href='public/css/style.css')
-  body
-    // header>.container>h1>{ruhui's portfolio}+nav>ul>li*4>a[href="#"]{文字}
-    header
+html
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        title 關於我|Ruhui's Portfolio
+        link(rel='stylesheet', href='public/css/styles.css')
+    body
+        header.overflow-hidden
+            .container
+                a.icon-menu(href="#") menu
+                h1
+                    a(href='index.html') Ruhui's Portfolio
+                nav
+                    ul
+                        li
+                            a(href='about-us.html') 關於我
+                        li
+                            a(href='design-list.html') 平面設計
+                        li
+                            a(href='web-design-list.html') 網頁設計
+                        li
+                            a(href='contact-us.html') 聯絡我
+    .container
+        .row
+            .col-12
+                h2 關於我
+        .row
+            .col-12.col-md-6 
+                    img.img-fluid.img-rounded(src='https://loremflickr.com/300/200', alt='')
+            .col-12.col-md-6 02
+        .row
+            .col-12.col-md-6
+                    img.img-fluid.img-rounded(src='https://loremflickr.com/300/200', alt='')
+            .col-12.col-md-6.order-md-1 02
+        
+    footer
       .container
-        a.icon-menu(href="#") menu 
-        h1
-          a(href='index.html') ruhui's portfolio
-        nav
-          ul
-            li
-              a(href='#') 關於我
-            li
-              a(href='design-list.html') 平面作品
-            li
-              a(href='#') 網頁設計
-            li
-              a(href='#') 聯絡我
-// haeder end
-// content start
-.container
-    .row 
-        .col-12.col-md-6
-                img.img-fluid.imgrounded(src="", alt="")
-        .col-12.col-md-6 02
-    .row 
-        .col-12.col-md-6  
-                img.img-fluid.imgrounded(src="", alt="")
-        .col-12.col-md-6.order-md-1 02
-
-footer
-  .container
-    .row
-     dl.col-3
-        dt 標題01
-       dd
-         a(href='#') 項目01
-       dd
-         a(href='#') 項目02
-       dd
-           a(href='#') 項目03
-       dd
-         a(href='#') 項目04
-     dl.col-3
-       dt 標題02
-       dd
-         a(href='#') 項目01
-       dd
-         a(href='#') 項目02
-       dd
-         a(href='#') 項目03
-       dd
-         a(href='#') 項目04
-     dl.col-3
-       dt 標題03
-       dd
-         a(href='#') 項目01
-       dd
-         a(href='#') 項目02
-       dd
-         a(href='#') 項目03
-       dd
-         a(href='#') 項目04
-     dl.col-3
-       dt 標題04
-       dd
-         a(href='#') 項目01
-       dd
-         a(href='#') 項目02
-       dd
-         a(href='#') 項目03
-       dd
-         a(href='#') 項目04
-   p.text-center 本站僅供學習使用，不用於商業用途
+        .row
+          dl.col-12.col-md-3
+            dt 標題01
+            dd
+              a(href='#') 項目01
+            dd
+              a(href='#') 項目02
+            dd
+              a(href='#') 項目03
+            dd
+              a(href='#') 項目04
+          dl.col-12.col-md-3
+            dt 標題02
+            dd
+              a(href='#') 項目01
+            dd
+              a(href='#') 項目02
+            dd
+              a(href='#') 項目03
+            dd
+              a(href='#') 項目04
+          dl.col-12.col-md-3
+            dt 標題03
+            dd
+              a(href='#') 項目01
+            dd
+              a(href='#') 項目02
+            dd
+              a(href='#') 項目03
+            dd
+              a(href='#') 項目04
+          dl.col-12.col-md-3
+            dt &#x6A19;&#x984C;04
+            dd
+              a(href='#') 項目01
+            dd
+              a(href='#') 項目02
+            dd
+              a(href='#') 項目03
+            dd
+              a(href='#') 項目04
+        p.copyright.text-center 本站僅供學習使用，不用於商業用途本站僅供學習使用，不用於商業用途
